@@ -5,6 +5,8 @@ import { Button, Box, Grid, Typography } from "@mui/material";
 import AppNavbar from "./components/layout/AppNavbar";
 import HeroSection from "./components/layout/HeroSection";
 import InfoBox from "./components/layout/InfoBox";
+import Footer from "./components/layout/Footer";
+
 export default function Home() {
   return (
     <>
@@ -52,6 +54,7 @@ export default function Home() {
           </Grid>
         </Grid>
       </Box>
+      <Footer />
     </>
   );
 }
