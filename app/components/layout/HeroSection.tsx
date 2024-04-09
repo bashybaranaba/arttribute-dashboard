@@ -9,7 +9,7 @@ function HeroSection() {
     <Grid
       sx={{
         px: 12,
-        py: 14,
+        py: 16,
         borderRadius: 6,
         background:
           "linear-gradient(145deg, #e8eaf6 30%, #fce4ec 60%, #fffde7 80%)",
@@ -23,13 +23,17 @@ function HeroSection() {
         justifyContent="center"
       >
         <Grid item>
-          <Typography variant="h3" sx={{ flexGrow: 1, fontWeight: 600 }}>
+          <Typography variant="h2" sx={{ flexGrow: 1, fontWeight: 600 }}>
             Equitable Transparent AI Art
           </Typography>
+        </Grid>
+        <Grid item>
           <Typography variant="h5" sx={{ fontWeight: 400 }}>
             Arttribute enables fair and transparent use of art in the realm of
             generative AI
           </Typography>
+        </Grid>
+        <Grid item>
           <Box gap={2} sx={{ display: "flex" }}>
             <Button
               variant="contained"
