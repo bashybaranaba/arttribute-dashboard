@@ -11,7 +11,16 @@ const chakra_petch = Chakra_Petch({
 
 const theme = createTheme({
   palette: {
-    mode: "light",
+    primary: {
+      main: "#2962ff",
+    },
+    secondary: {
+      main: "#fff",
+      contrastText: "#2962ff",
+    },
+    error: {
+      main: "#ff1744",
+    },
   },
   typography: {
     fontFamily: chakra_petch.style.fontFamily,
